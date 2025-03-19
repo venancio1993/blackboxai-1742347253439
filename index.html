@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duso Acessórios</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .category-card {
+            background: linear-gradient(145deg, #ffffff, #f3f3f3);
+            box-shadow: 5px 5px 15px #d1d1d1, -5px -5px 15px #ffffff;
+        }
+        .category-card:hover {
+            background: linear-gradient(145deg, #f3f3f3, #ffffff);
+        }
+        .icon-circle {
+            background: linear-gradient(145deg, #e0c8b0, #d4b498);
+            box-shadow: 3px 3px 6px #c4aa94, -3px -3px 6px #ffe6cc;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <header class="fixed w-full top-0 bg-white shadow-md z-50">
+        <div class="container mx-auto px-4 py-4">
+            <h1 class="text-4xl font-bold text-center mb-4">Duso Acessórios</h1>
+            <nav>
+                <ul class="flex justify-center space-x-8 flex-wrap">
+                    <li><a href="#aneis" class="nav-link">ANÉIS</a></li>
+                    <li><a href="#bolsas" class="nav-link">BOLSAS</a></li>
+                    <li><a href="#brincos" class="nav-link">BRINCOS</a></li>
+                    <li><a href="#chokers" class="nav-link">CHOKERS</a></li>
+                    <li><a href="#colares" class="nav-link">COLARES</a></li>
+                    <li><a href="#diversos" class="nav-link">DIVERSOS</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 mt-32">
+        <!-- Hero Section -->
+        <section class="relative h-[500px] mb-16 rounded-lg overflow-hidden shadow-2xl" style="background: url('https://images.pexels.com/photos/1413420/pexels-photo-1413420.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') center/cover no-repeat;">
+            <div class="absolute inset-0 bg-gradient-to-r from-black/60 to-black/40 flex items-center justify-center text-white">
+                <div class="text-center px-4">
+                    <h2 class="text-5xl font-bold mb-4 animate-fade-in">Bem-vindo à Duso Acessórios</h2>
+                    <p class="text-xl animate-fade-in-delay">Descubra nossa coleção exclusiva de acessórios</p>
+                    <a href="#categorias" class="inline-block mt-8 px-8 py-3 bg-[#e0c8b0] text-white rounded-full hover:bg-[#d4b498] transition-all duration-300 transform hover:scale-105 animate-fade-in-delay-2 shadow-lg">
+                        Explorar Coleção
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categories -->
+        <div id="categorias" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+            <div class="category-card p-8 rounded-2xl transform hover:-translate-y-2 transition-all duration-300">
+                <div class="relative overflow-hidden mb-6">
+                    <div class="icon-circle w-20 h-20 rounded-full flex items-center justify-center mx-auto">
+                        <i class="fas fa-ring text-4xl text-white"></i>
+                    </div>
+                </div>
+                <h2 class="text-2xl font-semibold mb-4 text-center">Anéis</h2>
+                <p class="text-gray-600 mb-6 text-center">Explore nossa coleção de anéis elegantes e modernos.</p>
+                <div class="text-center">
+                    <a href="#" class="inline-flex items-center text-[#e0c8b0] hover:text-[#d4b498] transition-colors group">
+                        Ver Coleção 
+                        <i class="fas fa-arrow-right ml-2 transform group-hover:translate-x-2 transition-transform"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="category-card p-8 rounded-2xl transform hover:-translate-y-2 transition-all duration-300">
+                <div class="relative overflow-hidden mb-6">
+                    <div class="icon-circle w-20 h-20 rounded-full flex items-center justify-center mx-auto">
+                        <i class="fas fa-shopping-bag text-4xl text-white"></i>
+                    </div>
+                </div>
+                <h2 class="text-2xl font-semibold mb-4 text-center">Bolsas</h2>
+                <p class="text-gray-600 mb-6 text-center">Descubra nossas bolsas estilosas e práticas.</p>
+                <div class="text-center">
+                    <a href="#" class="inline-flex items-center text-[#e0c8b0] hover:text-[#d4b498] transition-colors group">
+                        Ver Coleção 
+                        <i class="fas fa-arrow-right ml-2 transform group-hover:translate-x-2 transition-transform"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="category-card p-8 rounded-2xl transform hover:-translate-y-2 transition-all duration-300">
+                <div class="relative overflow-hidden mb-6">
+                    <div class="icon-circle w-20 h-20 rounded-full flex items-center justify-center mx-auto">
+                        <i class="fas fa-gem text-4xl text-white"></i>
+                    </div>
+                </div>
+                <h2 class="text-2xl font-semibold mb-4 text-center">Brincos</h2>
+                <p class="text-gray-600 mb-6 text-center">Conheça nossa seleção de brincos únicos.</p>
+                <div class="text-center">
+                    <a href="#" class="inline-flex items-center text-[#e0c8b0] hover:text-[#d4b498] transition-colors group">
+                        Ver Coleção 
+                        <i class="fas fa-arrow-right ml-2 transform group-hover:translate-x-2 transition-transform"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="category-card p-8 rounded-2xl transform hover:-translate-y-2 transition-all duration-300">
+                <div class="relative overflow-hidden mb-6">
+                    <div class="icon-circle w-20 h-20 rounded-full flex items-center justify-center mx-auto">
+                        <i class="fas fa-circle text-4xl text-white"></i>
+                    </div>
+                </div>
+                <h2 class="text-2xl font-semibold mb-4 text-center">Chokers</h2>
+                <p class="text-gray-600 mb-6 text-center">Veja nossos chokers modernos e versáteis.</p>
+                <div class="text-center">
+                    <a href="#" class="inline-flex items-center text-[#e0c8b0] hover:text-[#d4b498] transition-colors group">
+                        Ver Coleção 
+                        <i class="fas fa-arrow-right ml-2 transform group-hover:translate-x-2 transition-transform"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="category-card p-8 rounded-2xl transform hover:-translate-y-2 transition-all duration-300">
+                <div class="relative overflow-hidden mb-6">
+                    <div class="icon-circle w-20 h-20 rounded-full flex items-center justify-center mx-auto">
+                        <i class="fas fa-link text-4xl text-white"></i>
+                    </div>
+                </div>
+                <h2 class="text-2xl font-semibold mb-4 text-center">Colares</h2>
+                <p class="text-gray-600 mb-6 text-center">Explore nossa coleção de colares exclusivos.</p>
+                <div class="text-center">
+                    <a href="#" class="inline-flex items-center text-[#e0c8b0] hover:text-[#d4b498] transition-colors group">
+                        Ver Coleção 
+                        <i class="fas fa-arrow-right ml-2 transform group-hover:translate-x-2 transition-transform"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="category-card p-8 rounded-2xl transform hover:-translate-y-2 transition-all duration-300">
+                <div class="relative overflow-hidden mb-6">
+                    <div class="icon-circle w-20 h-20 rounded-full flex items-center justify-center mx-auto">
+                        <i class="fas fa-star text-4xl text-white"></i>
+                    </div>
+                </div>
+                <h2 class="text-2xl font-semibold mb-4 text-center">Diversos</h2>
+                <p class="text-gray-600 mb-6 text-center">Confira nossos acessórios variados.</p>
+                <div class="text-center">
+                    <a href="#" class="inline-flex items-center text-[#e0c8b0] hover:text-[#d4b498] transition-colors group">
+                        Ver Coleção 
+                        <i class="fas fa-arrow-right ml-2 transform group-hover:translate-x-2 transition-transform"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Newsletter Section -->
+        <section class="relative overflow-hidden rounded-2xl bg-gradient-to-r from-[#e0c8b0] to-[#d4b498] p-12 shadow-xl">
+            <div class="absolute inset-0 bg-white/5"></div>
+            <div class="relative z-10">
+                <h2 class="text-3xl font-bold mb-4 text-white text-center">Receba Nossas Novidades</h2>
+                <p class="mb-8 text-white/90 text-center">Inscreva-se para receber ofertas exclusivas e lançamentos.</p>
+                <div class="max-w-md mx-auto">
+                    <div class="flex gap-4 flex-col sm:flex-row">
+                        <input type="email" placeholder="Seu email" class="flex-1 px-6 py-3 rounded-lg text-gray-800 focus:outline-none focus:ring-2 focus:ring-white/50 shadow-lg">
+                        <button class="bg-white text-[#e0c8b0] px-8 py-3 rounded-lg font-semibold hover:bg-gray-50 transition-all duration-300 transform hover:scale-105 shadow-lg sm:w-auto w-full">
+                            Inscrever
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="absolute -bottom-1/2 -right-1/4 w-96 h-96 bg-white/10 rounded-full"></div>
+            <div class="absolute -top-1/2 -left-1/4 w-96 h-96 bg-white/10 rounded-full"></div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-900 text-white mt-16 py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Sobre Nós</h3>
+                    <p class="text-gray-400">Duso Acessórios - Sua loja de acessórios modernos e elegantes.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Links Rápidos</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition-colors">Novidades</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Promoções</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Mais Vendidos</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Contato</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><i class="fas fa-phone mr-2"></i> (XX) XXXX-XXXX</li>
+                        <li><i class="fas fa-envelope mr-2"></i> contato@dusoacessorios.com</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Redes Sociais</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition-all duration-300 transform hover:scale-110">
+                            <i class="fab fa-instagram text-2xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-all duration-300 transform hover:scale-110">
+                            <i class="fab fa-facebook text-2xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-all duration-300 transform hover:scale-110">
+                            <i class="fab fa-whatsapp text-2xl"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 Duso Acessórios. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
